@@ -1,1 +1,1 @@
-Submission Dicoding "Belajar Pengembangan Aplikasi Android Intermediate" dibuat bulan May 2022
+Submission Dicoding "Belajar Pengembangan Aplikasi Android Intermediate" dibuat bulan Juni 2022
