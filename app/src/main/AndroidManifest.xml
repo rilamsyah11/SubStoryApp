@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rizki.substoryapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SubStoryApp" >
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA3hhNZcIZetBCPn5n8usGZHb1cg3tyXag" />
+
+        <activity
+            android:name=".ui.main.maps.MapStoriesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_map_stories" />
+        <activity
+            android:name=".ui.main.CameraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.createstories.CreateStoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.detailstories.DetailStoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.stories.StoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.register.RegisterUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

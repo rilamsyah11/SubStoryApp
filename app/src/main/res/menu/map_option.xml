@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/type_normal"
+        android:title="@string/normal_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/type_satellite"
+        android:title="@string/satellite_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/type_terrain"
+        android:title="@string/terrain_type"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/type_hybrid"
+        android:title="@string/hybrid_type"
+        app:showAsAction="never" />
+</menu>

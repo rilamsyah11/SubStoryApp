@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/menu_create"
+            android:title="@string/menu_add_story"
+            android:icon="@drawable/ic_create_stories"
+            app:showAsAction="collapseActionView|always"/>
+        <item
+            android:id="@+id/menu_refresh"
+            android:title="@string/refresh"
+            android:icon="@drawable/ic_refresh"
+            app:showAsAction="collapseActionView|always"/>
+
+        <item
+            android:id="@+id/menu_map"
+            android:title="@string/maps"
+            android:icon="@drawable/ic_map"
+            app:showAsAction="collapseActionView|always"/>
+
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_baseline_logout"
+            android:title="@string/logout"
+            app:showAsAction="collapseActionView|always"/>
+    </group>
+
+</menu>
